@@ -1,0 +1,76 @@
+/*Основной файл CSS*/
+
+.grid-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		align: center;
+		padding: 0.5vh 10vw;
+}
+.item {
+		width: 15vw;
+		margin: 0 auto;
+}
+		
+body{
+		background: url(../images/Harry-potter.jpg) no-repeat;
+		background-size: 100% 100%;
+}
+
+img {
+		width: 100%;
+		height: 100%;
+		object-position: center;
+		border-radius: 5%;			
+}
+
+p {
+		text-align: center;
+		color: white;
+		font-style: italic;
+		font-size: 20px;
+}
+
+img:hover {
+		box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.75);
+}
+
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1000;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.overlay-content {
+	background: white;
+	border-radius: 12px;
+	max-width: 95vw;
+	max-height: 95vh;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+#overlayIframe {
+  	height: calc(100% - 0px); /* Занимает всё доступное пространство */
+  	border: none;
+ 	border-radius: 12px;
+	width: 200vw; 
+	height: 100vh; border: none;
+  	overflow: auto; /* Прокрутка внутри iframe */
+}
+
+/* Стили для iframe внутри оверлея */
+/*Основной файл CSS*/

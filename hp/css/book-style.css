@@ -1,0 +1,58 @@
+/*Файл CSS для фильма*/
+body {
+	background: url(../images/Harry-potter.jpg) no-repeat;
+	background-size: 48% 100%;
+	height:	auto;
+	width: 47vw;	
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height:100%;
+	width:100%;
+	
+}
+		
+img, #text {
+	height: 100%;
+	width: auto;
+	float:	left;
+	justify-content: center;
+	border-radius: 3%;
+}
+
+#content{
+	margin-top: 10vh;
+	font-size: 3vh;
+}
+
+section {
+	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+}
+			
+#header {
+	margin-top: 3vh;
+	font-size: 5vh;
+}
+			
+#content {
+	justify-content:space-between;
+	padding-top: 5vh;
+}
+
+#text {
+	padding-left: 0.5vw;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+/*Файл CSS для фильма*/
